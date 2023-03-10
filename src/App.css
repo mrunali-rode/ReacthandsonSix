@@ -1,0 +1,72 @@
+.bodyBackground {
+  /* margin: 0px;
+  padding:0px;
+  box-sizing: border-box; */
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(blue, pink, rgb(168, 168, 189));
+  background-repeat: no-repeat;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(11, 11, 85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 170px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+#addButton {
+  font-size: 30px;
+  margin-left: 1100px;
+  border-radius: 15px;
+
+}
+
+.inputCon {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 200px;
+  background-repeat: repeat;
+}
+
+.btn_btn {
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 400px;
+}
+
+#tableDesign {
+  font-size: 25px;
+  margin-left: 150px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+#update_btn{
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 670px;
+  margin-top: 100px;
+}
